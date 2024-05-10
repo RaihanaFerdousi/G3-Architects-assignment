@@ -1,0 +1,20 @@
+header{
+    margin: 50px 150px;
+}
+.header-menu{
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu h3{
+    font-size: 22px;
+}
+
+.header-menu ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
