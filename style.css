@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header styles */
 header{
     margin: 50px 150px;
 }
@@ -7,6 +13,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 70px;
 }
 
 .header-menu h3{
@@ -17,4 +24,34 @@ header{
     display: flex;
     list-style: none;
     gap: 10px;
+}
+
+/* banner styles */
+
+.banner-info{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.banner-info h1{
+    font-size: 40px;
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+.banner-info p{
+    color: #727272;
+    margin-bottom: 20px;
+}
+
+.btn{
+    background-color: #FF900E;
+    color: white;
+    padding:15px 30px;
+    border: none;
+    border-radius: 5px;
+}
+.banner-img img{
+    width: 900px;
+    height: 500px;
 }
